@@ -1,0 +1,1366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cu",
+				"currentCombinationIndex"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"appl",
+				"applications"
+			],
+			[
+				"photo",
+				"Photoshop"
+			],
+			[
+				"Itner",
+				"interaction"
+			],
+			[
+				"Interaction",
+				"InteractionWindowsDialogAction"
+			],
+			[
+				"Mag",
+				"MagicElementType"
+			],
+			[
+				"ge",
+				"generated_stylesheets"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"coll",
+				"collidedWizard"
+			],
+			[
+				"tile",
+				"tilePosition"
+			],
+			[
+				"name",
+				"name_list"
+			],
+			[
+				"nam",
+				"name_list"
+			],
+			[
+				"requ",
+				"request_channels"
+			],
+			[
+				"proj",
+				"projectile_data"
+			],
+			[
+				"remove",
+				"removeChild"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wiz",
+				"wizardSprite"
+			],
+			[
+				"_wi",
+				"_wizardSprites"
+			],
+			[
+				"play",
+				"playerId"
+			],
+			[
+				"_wizards",
+				"_wizards"
+			],
+			[
+				"onMouse",
+				"onMouseDown"
+			],
+			[
+				"add",
+				"add_wizard"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"ex",
+				"execute"
+			],
+			[
+				"pla",
+				"playerId"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"code",
+				"codeFunction"
+			],
+			[
+				"channe",
+				"channeldb"
+			],
+			[
+				"get",
+				"get_channel_by_id"
+			],
+			[
+				"get_c",
+				"get_channel_by_id"
+			],
+			[
+				"remo",
+				"remove_client_from_channel"
+			],
+			[
+				"get_",
+				"get_channel_by_id"
+			],
+			[
+				"cha",
+				"channelId"
+			],
+			[
+				"cl",
+				"clients"
+			],
+			[
+				"channel",
+				"channelId"
+			],
+			[
+				"pl",
+				"player_tabheader"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"z-i",
+				"z-index"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"this",
+				"thisId"
+			],
+			[
+				"event",
+				"event_name"
+			],
+			[
+				"eng",
+				"engine"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"delt",
+				"deltaY"
+			],
+			[
+				"scr",
+				"scrolldistance"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"scre",
+				"screenHeight"
+			],
+			[
+				"sTil",
+				"sTilewidth"
+			],
+			[
+				"curre",
+				"currentLevelName"
+			],
+			[
+				"input-group",
+				"input-group-addon"
+			],
+			[
+				"part",
+				"particleList"
+			],
+			[
+				"to",
+				"toPixelPos"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lev",
+				"levelContainer"
+			],
+			[
+				"ground",
+				"groundLayer"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"typ",
+				"typeText"
+			],
+			[
+				"text",
+				"textIndex"
+			],
+			[
+				"noise",
+				"noiseLevel"
+			],
+			[
+				"noi",
+				"noiseLevel"
+			],
+			[
+				"Get",
+				"GetPosition"
+			],
+			[
+				"se",
+				"secondsActors"
+			],
+			[
+				"new",
+				"newTimeUntilInDays"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"sc",
+				"screenWidth"
+			],
+			[
+				"d",
+				"dt	Tag"
+			],
+			[
+				"dec",
+				"decompress_zlib(in_str)	(global, function)"
+			],
+			[
+				"tiles",
+				"tilesetNode"
+			],
+			[
+				"world",
+				"worldBody"
+			],
+			[
+				"si",
+				"_size"
+			],
+			[
+				"isL",
+				"_isLanding"
+			],
+			[
+				"anim",
+				"animData"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"chara",
+				"characterAnimations"
+			],
+			[
+				"c",
+				"_character"
+			],
+			[
+				"main",
+				"_main"
+			],
+			[
+				"PI",
+				"PIXEL_DIM_X	(imported, instance)"
+			],
+			[
+				"inter",
+				"internalButtons	(attribute, instance)"
+			],
+			[
+				"vFinger",
+				"vFingerDir"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"col",
+				"color_red"
+			],
+			[
+				"num",
+				"num_leds"
+			],
+			[
+				"Score",
+				"ScoreEffectOffset"
+			],
+			[
+				"toIn",
+				"toIntArr()	(attribute, function)"
+			],
+			[
+				"secon",
+				"secondJoint	(local, instance)"
+			],
+			[
+				"firs",
+				"firstJoint	(local, instance)"
+			],
+			[
+				"Robo",
+				"RoboController	(global, class)"
+			],
+			[
+				"PIXEL",
+				"PIXEL_DIM_Y	(global, instance)"
+			],
+			[
+				"PXI",
+				"PIXEL_DIM_Y-1"
+			],
+			[
+				"PIX",
+				"PIXEL_DIM_Y	(global, instance)"
+			],
+			[
+				"vector_",
+				"vector_imul"
+			],
+			[
+				"vector",
+				"vector_sub"
+			],
+			[
+				"onTouch",
+				"onTouchBegan"
+			],
+			[
+				"zoom",
+				"zoommanager"
+			],
+			[
+				"HA",
+				"HALF_HEIGHT"
+			],
+			[
+				"x",
+				"xScale"
+			],
+			[
+				"gr",
+				"graphic"
+			],
+			[
+				"drawnT",
+				"drawnTile"
+			],
+			[
+				"t",
+				"tilesToDraw"
+			],
+			[
+				"Wor",
+				"WorldTile"
+			],
+			[
+				"wor",
+				"worldManager"
+			],
+			[
+				"wo",
+				"worldManager"
+			],
+			[
+				"grap",
+				"graphicGroup"
+			],
+			[
+				"game",
+				"gameobjects"
+			],
+			[
+				"obj",
+				"object2"
+			],
+			[
+				"ob",
+				"object1"
+			],
+			[
+				"aster",
+				"asteroid"
+			],
+			[
+				"graphic",
+				"graphicFile"
+			],
+			[
+				"input_vel",
+				"input_velocity_correction_factor"
+			],
+			[
+				"ve",
+				"vector_sub"
+			],
+			[
+				"rot",
+				"rotationSpeed"
+			],
+			[
+				"MOTO",
+				"MOTOR_SMOOTHING_FULL"
+			],
+			[
+				"MOT",
+				"MOTOR_SMOOTHING_FULL"
+			],
+			[
+				"mov",
+				"movementSmoothing"
+			],
+			[
+				"input_velocity_",
+				"input_velocity_pin"
+			],
+			[
+				"po",
+				"position	(attribute, instance)"
+			],
+			[
+				"HALF",
+				"HALF_HEIGHT"
+			],
+			[
+				"parti",
+				"particleSystemOffsets"
+			],
+			[
+				"graphi",
+				"graphicFile"
+			],
+			[
+				"config",
+				"configOverwrite"
+			],
+			[
+				"target",
+				"targetPos"
+			],
+			[
+				"vec",
+				"vector_dist"
+			],
+			[
+				"foreg",
+				"foregroundGroup"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11242,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/compileBat.sublime-build",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git: add",
+				"Git: Quick Add"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"remote",
+				"Git: Add Remote"
+			],
+			[
+				"init",
+				"Git: Init"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sync",
+				"Legit: Sync"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc#",
+				"Set Syntax: C#"
+			],
+			[
+				"ssc",
+				"Set Syntax: C#"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"ssop",
+				"Set Syntax: OpenSCAD"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssless",
+				"Set Syntax: LESS"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			],
+			[
+				"setspr",
+				"Set Syntax: Processing"
+			],
+			[
+				"setja",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"set sy ja",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rope",
+				"Rope: New Project"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"base",
+				"Web encoder: Base 64 decode selection"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: List",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 237.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/ShortcutNerd/js/game2.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/ShortcutNerd/js/shortcuts2.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/ShortcutNerd/index2.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/ShortcutNerd/index.html",
+		"/C/Users/Sven Hecht/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/C/Users/Sven Hecht/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutNerd/shortcutnerd.sublime-project",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutNerd/sftp-config.json",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutTrainer/js/game.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutTrainer/js/main.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutTrainer/js/shortcuts.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutTrainer/index.html",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcutTrainer/js/vendor/jquery.hashchange.min.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/ShortcuteTrainer/index.html",
+		"/D/Users/hecht/Dropbox/Dropbox/FabLabAccountData.txt",
+		"/C/Users/hecht/Desktop/tfsgorba.txt",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/KillMyThing/tower.php",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/KillMyThing/js/engine.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/KillMyThing/js/controllers.js",
+		"/C/LocalData/projects/NodeJS/SimpleServer/main.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/app.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/index.html",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/wizard.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/creature.js",
+		"/C/LocalData/projects/NodeJS/Sample/Gruntfile.js",
+		"/C/LocalData/projects/NodeJS/UnderscoreSample/README.md",
+		"/C/LocalData/projects/NodeJS/UnderscoreSample/src/jquerysample.js",
+		"/C/LocalData/projects/NodeJS/UnderscoreSample/package.json",
+		"/C/LocalData/projects/NodeJS/UnderscoreSample/Gruntfile.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/index.js",
+		"/C/LocalData/projects/NodeJS/AngularSample/Gruntfile.js",
+		"/C/Users/hecht/Desktop/temp/InteractionRequest.cs",
+		"/C/Users/hecht/Desktop/temp/PromptOverview.cs",
+		"/D/Users/hecht/Downloads/WpfCustomChromeLib/WpfCustomChromeLib/ThirdParty/WPF Shell Integration Library v2/Microsoft.Windows.Shell/WindowChrome.cs",
+		"/C/LocalData/projects/DotNet/Gorba/Main/Center/Media/Source/Core/Resources/fontawesome license.txt",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/docs/samples.txt",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/masterpages/Projects.master",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/masterpages/Project.master",
+		"/D/Users/hecht/Downloads/UmbracoCms.7.0.1/Web.config",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Extensions/REST/DataButler.cs",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/Web.config",
+		"/D/Users/hecht/Downloads/UmbracoCms.7.0.1/Config/umbracoSettings.config",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/css/bluehands.css",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/masterpages/umbTeamMember.master",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/D/Users/hecht/Dropbox/Dropbox/todo.txt",
+		"//PROJECT.bluehands.de/BluehandsWebsite/Umbraco.Site/masterpages/umbProjects.master",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/projectile.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/game.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/executor.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/magic.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/main.js",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js/src/jquery.gridster.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/BluehandsCookieCutter/cookiecutter.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/FabLabLogo/repo/3D/logo_cookie_cutter.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/FabLabLogo/repo/3D/logo.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/BluehandsCookieCutter/Spiff.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/client.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/css/style.css",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/MagneticBox/magneticbox.scad",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/HEAD",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/description",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/logs/HEAD",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/logs/refs/heads/master",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/index",
+		"/C/LocalData/projects/Git/Gridster.js/gridster.js_orig/.git/packed-refs",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/FabLabLogo/repo/3D/customizer.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/BluehandsCookieCutter/cookiecutter2.scad",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/Models/MagneticBox/magneticbox",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/vmath.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/resourceloader.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/src/js/tilesets.js",
+		"/D/Users/hecht/Dropbox/Dropbox/projects/web/WizardsStandoff/wizardsstandoff.sublime-project",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/game.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/avatar.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/creatures.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/map.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/data/Level.json",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/magicfight.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/index.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/tilesets.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/resourceloader.js",
+		"/C/Users/Sven Hecht/AppData/Roaming/Sublime Text 2/Packages/Javascript Beautify/Default (Windows).sublime-keymap",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/tilesets.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/DangerBert/js/main.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/main.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/app.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/vmath",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/index.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/executor.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/wizard.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/magic.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/game.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/css/style.css",
+		"/C/Users/Sven Hecht/Downloads/webfontkit-20131118-155601/stylesheet.css",
+		"/C/Users/Sven Hecht/Downloads/webfontkit-20131118-155601/mildeast-demo.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/client.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/extensions.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/Models/FabLabLogo/logo_cutter.scad",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/Models/FabLabLogo/logo_inverted_stamp.scad",
+		"/C/Users/Sven Hecht/Downloads/webfontkit-20131118-155355/stylesheet.css",
+		"/C/Users/Sven Hecht/Downloads/webfontkit-20131118-155355/specimen_files/specimen_stylesheet.css",
+		"/C/Users/Sven Hecht/Downloads/webfontkit-20131118-155355/generator_config.txt",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/reconnecting-websocket.min.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/css/rainbow-theme-monokai.css",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/procfile",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/package.json",
+		"/C/Users/Sven Hecht/Desktop/New Text Document.txt",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/server.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/node_modules/ws/examples/fileapi/server.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/node_modules/ws/index.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/index.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/compile.bat",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/src/js/bundle.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/client.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/start.bat",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/xclient.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/xapp.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/static/index.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/static/index.html",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/compile.bat",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/index.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/static/index.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/package.json",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/stream-chat-master/Makefile",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/browser.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/main.js",
+		"/D/Lokale Daten/DropBox/Dropbox/projects/web/WizardsStandoff/server2.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Lokale Daten\\DropBox\\Dropbox\\sites\\DaianeRibeiro\\",
+			"D:\\Lokale Daten\\DropBox\\Dropbox\\sites\\DaianeRibeiro\\less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"visual",
+			"shortcutVisualizer",
+			"solutioncontainer",
+			"solutionVisualizer",
+			"show",
+			"shortcutVisualizer",
+			"resultVisualizer",
+			"wrongNotification",
+			"h2",
+			"hint",
+			"trainer",
+			"resultVisualizer",
+			"shortcutVisualizer",
+			"'(\\d*)',",
+			"img",
+			"  [^ :]*",
+			"'(.*)' :",
+			"\n            <a class=\"btn btn-primary btn-lg\">\n              <img src=\"img/vs2013.png\" alt=\"Visual Studio 2013\" width=\"64\" height=\"64\" /> \n              Microsoft Visual Studio &raquo;\n            </a>",
+			"Studio",
+			"Center.Common.Cor",
+			"\\[",
+			"\\]",
+			"alldata",
+			"last share",
+			"\\[",
+			"sdf",
+			">",
+			"sdf",
+			"technologies",
+			"contract",
+			"\n					function moveToFirstCol(elem, callback) {\n						var firstElem = elem.prev('li');\n						while(firstElem && firstElem.index() % 4 != 0) {\n							firstElem = firstElem.prev('li');\n						}\n\n						if (firstElem) {\n							var firstPos = firstElem.position();\n							var elemPos = elem.position();\n\n							elem.css({ left: -elemPos.left });\n							firstElem.css({ left: elemPos.left});\n							elem\n								.stop()\n								.css('left', 0);\n\n							firstElem\n								    .stop()\n								    .css('left', 0)\n					       		    .swapWith(elem);\n\n							callback($('#' + elem.attr('id')));\n						} else {\n							callback(elem);\n						}\n					}",
+			"loadingIndicatorHtml",
+			"loadingImg",
+			"create",
+			"doSay",
+			"dosay",
+			"get_wizard",
+			"Magic",
+			"MockMagic",
+			"add_projectile",
+			"throw_fireball",
+			"generated_stylesheets",
+			"setReadonly",
+			"    \\* //",
+			"\\* //",
+			"  \\* \\*\\*(.*)\\*\\*",
+			"\\],\\[",
+			"],[",
+			"cookie_cutter",
+			"set_game_status",
+			"recon",
+			"get_stat",
+			"command",
+			"add_projectile",
+			"send",
+			"_grid",
+			"add_projectile",
+			"Projectile",
+			"get_wizard_at",
+			"MF.Client.request_channels",
+			"channel_list_received",
+			"list-group",
+			"dialog-channel-selection",
+			"Creature",
+			"Projectiles",
+			"Fireball",
+			"_wizards",
+			"levelContainer",
+			"creatureContainer",
+			"levelContainer",
+			"_projectileSprites",
+			"\n\n	set_game_status: function() {\n\n	},",
+			"get_status",
+			"remove_player",
+			"on_send_code",
+			"{\n",
+			"_on_text_entered",
+			"on_send_code",
+			"command",
+			"tileWidth",
+			"margin",
+			"creatureContainer",
+			"creature",
+			"TextureCache",
+			"currentTilePosition",
+			"assetsLoaded",
+			"add_player",
+			"\n\n	get_wizard: function(playerId) {\n		var me = this;\n		\n		return me._wizards[playerId];\n	},",
+			"sTilewidth",
+			"_3x.png",
+			"72",
+			"soundm",
+			"assetsLoaded",
+			"../img/",
+			"\\/",
+			"assetsLoaded",
+			"createLayer",
+			"update",
+			"Mf.",
+			"get_channel_list",
+			"private",
+			">\n",
+			",\n",
+			"DMath",
+			"DangerBert",
+			"add_wizard",
+			"add_player",
+			"amount",
+			"_on_text_entered",
+			"validateCode",
+			"on_send_code",
+			"wizard",
+			"\n\n		set_channel: function(msg) {\n			var me = this;\n			\n		    me.trigger(me.events.set_channel, msg.data);\n\n			me._channel = msg.data.id;\n		},",
+			"_send",
+			"left",
+			"on_send_code",
+			"broadcastChannel",
+			"channels",
+			"player_code",
+			"player_box",
+			"#",
+			"remove_client_from_channel",
+			"remove",
+			"base64",
+			"add_client_to_channel",
+			"get_channel_by_id",
+			"add_client_to_channel",
+			"_channelsId"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"$1,",
+			"$1 :",
+			"\\n\\[",
+			"//",
+			"==== $1 ====",
+			"\\],\\n\\[",
+			"],\\n[",
+			"Projectile",
+			".png",
+			"24",
+			"img/",
+			"/",
+			"MF.",
+			"MF ",
+			"MF.",
+			"VMath",
+			"MF",
+			"",
+			"send(socket, ",
+			"",
+			";",
+			", ",
+			",",
+			"",
+			"$1.pdf:PDF},",
+			"[^ ]*\\.pdf:PDF\\},",
+			"\\1",
+			"\\2",
+			"\\1",
+			"$1",
+			"/fonts/",
+			"this.sprite",
+			"this.velocity",
+			"<?php echo i18n(",
+			"<?php i18n\\('$1'\\) ?>",
+			"i18n(",
+			"Ribeiro",
+			"Daiane",
+			"Ribeiro",
+			"Daiane",
+			"Daiane Ribeiro",
+			"kHistogramSize",
+			"kImageSize",
+			"image_",
+			"index",
+			"Index",
+			"IndexInstance",
+			"MyUser",
+			"\\t",
+			"",
+			"me.",
+			") {",
+			"(",
+			"",
+			"_figure",
+			"me",
+			"_velocity",
+			"",
+			"#",
+			"1",
+			"null",
+			"},",
+			"{",
+			"}",
+			"{",
+			".",
+			";\\n",
+			"self",
+			"_G.HALF_WIDTH",
+			"_G.HALF_HEIGHT",
+			"HALF_HEIGHT",
+			"HALF_WIDTH",
+			"ParticleSystemConstants",
+			"1",
+			"0",
+			"2",
+			"1",
+			"0",
+			"1",
+			"0",
+			" isinstance(other, tuple) or isinstance(other, list)",
+			" or isinstance(other, list)",
+			"},\\n{",
+			"$menuSlideoutItem-font-family",
+			"\"corbel\", \"tahoma\", \"arial\", \"verdana\", \"sans-serif\"",
+			"",
+			"input_cancel_pin",
+			"input_ok_pin",
+			"input_cancel_state",
+			"input_ok_state",
+			";",
+			"\\n",
+			";",
+			";\\n",
+			"C:\\\\inetpub\\\\wwwroot\\\\Web.Frontend",
+			"width: 300px;",
+			"Gorba_Center",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"Fruit &#39;Em Up",
+			"",
+			"\\n",
+			"\"",
+			"\\\"",
+			"}",
+			"",
+			"\"",
+			"ext-4",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"[Gorba_ICenter_Test]",
+			"Gorba_ICenter",
+			"Gorba_ICenter_Test",
+			"h2",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"Gorba_Center_Test",
+			"Gorba_Center",
+			"[gorba_web_media_test]",
+			"Gorba_Center",
+			"[gorba_web_media]",
+			"[gorba_web_media_test]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7439,
+								7439
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2790.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 53.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 130.0
+	},
+	"output.git-init":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 100.0
+	},
+	"output.legit-sync":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"project": "shortcutnerd.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"view",
+				"app/controller/View.js"
+			],
+			[
+				"treec",
+				"app/view/tree/TreeCombo.js"
+			],
+			[
+				"esumm",
+				"app/view/event/EventSummary.js"
+			],
+			[
+				"ec",
+				"app/view/event/EventControls.js"
+			],
+			[
+				"vip",
+				"/E/Lokale Daten/Projekte/OrderedArchive/seven2one/VP4Prototype/app/view/Viewport.js"
+			],
+			[
+				"treecom",
+				"/E/Lokale Daten/Projekte/OrderedArchive/seven2one/VP4Prototype/app/view/tree/TreeCombo.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Users\\hecht\\Dropbox\\Dropbox\\projects\\web\\KillMyThing\\killmything.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

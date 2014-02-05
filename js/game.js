@@ -33,7 +33,7 @@ Game.prototype = {
 	showShortcut: function(shortcut) {
 		var me = this;
 
-		console.log("shotShortcut",shortcut);
+		console.log("shotShortcut", shortcut);
 
 		me.currentShortcut = shortcut;
 
@@ -124,34 +124,83 @@ Game.prototype = {
 
 		$('#shortcutVisualizer').append(" + " );
 
-		console.log(me.currentCombinationIndex, me.currentShortcut.keys.length);
-		if (me.currentCombinationIndex > me.currentShortcut.keys.length) {
+		var combinationLengths = [me.currentShortcut.keys.length];
+
+		for (var i in me.currentShortcut.alternatives) {
+			var keys = me.currentShortcut.alternatives[i];
+			combinationLengths.push(keys.length);
+		}
+
+		var maxLength = Math.max.apply(Math, combinationLengths);
+
+		console.log(me.currentCombinationIndex, combinationLengths);
+		if (me.currentCombinationIndex > maxLength) {
+			console.log("over max length");
 			me.setWrong();
-		} else if (me.currentCombinationIndex == me.currentShortcut.keys.length) {
-			var correct = true;
+		} else if ($.inArray(me.currentCombinationIndex, combinationLengths) >= 0) {
+			console.log("at least one is right length");
+			
+			if (me.isCorrect(me.currentShortcut.keys, me.pressedCombinations)) {
+				me.setCorrect();
+			} else {
+				console.log("perhaps an alternative?");
 
-			for (var i in me.currentShortcut.keys) {
-				var expectedCombination = me.currentShortcut.keys[i];
-				var actualCombination = me.pressedCombinations[i];
+				var wasCorrect = false;
 
-				for (var j in actualCombination) {
-					var keyCode = actualCombination[j];
-
-					if ($.inArray(keyCode, expectedCombination) < 0) {
-						correct = false;
+				for (var i in me.currentShortcut.alternatives) {
+					var keys = me.currentShortcut.alternatives[i];
+					console.log("isCorrect?",keys,me.pressedCombinations);
+					if (me.isCorrect(keys, me.pressedCombinations)) {
+						me.setCorrect();
+						wasCorrect = true;
 						break;
 					}
 				}
 
-				if (!correct) { break; }
-			}
-
-			if (correct) {
-				me.setCorrect();
-			} else {
-				me.setWrong();
+				if (!wasCorrect && !me.stillHasAlternative(me.currentCombinationIndex, combinationLengths)) {
+					me.setWrong();
+				} else {
+					console.log("still one to go");
+				}
 			}
 		}
+	},
+
+	stillHasAlternative: function(index, lengths) {
+		var result = false;
+
+		for (var i in lengths) {
+			if (lengths[i] > index) {
+				 result = true;
+				 break;
+			}
+		}
+
+		return result;
+	},
+
+	isCorrect: function(keys, pressed_keys) {
+		var me = this;
+
+		var correct = true;
+
+		for (var i in keys) {
+			var expectedCombination = keys[i];
+			var actualCombination = pressed_keys[i];
+
+			for (var j in actualCombination) {
+				var keyCode = actualCombination[j];
+
+				if ($.inArray(keyCode, expectedCombination) < 0) {
+					correct = false;
+					break;
+				}
+			}
+
+			if (!correct) { break; }
+		}
+
+		return correct;
 	},
 
 	setWrong: function() {
