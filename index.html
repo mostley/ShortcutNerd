@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				<title>ShortcutNerd</title>
+				<meta name="viewport" content="width=device-width">
+
+				<meta name="description" content="Learn to control applications like a pro. Teaches shortcuts for the most popular applications">
+				<meta name="keywords" content="shortcut, keyboard, word, photoshop, visual studio, resharper" />
+
+				<meta name="author" content="Sven Hecht" />
+				<meta name="copyright" content="2014 - All Rights reserved" />
+				<meta name="application-name" content="ShortcutNerd" />
+
+				<meta property="og:title" content="ShortcutNerd" />
+				<meta property="og:type" content="article" />
+				<meta property="og:image" content="http://shortcutnerd.com/icon_square.jpg" />
+				<meta property="og:url" content="" />
+				<meta property="og:description" content="Learn to control applications like a pro. Teaches shortcuts for the most popular applications" />
+
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:title" content="ShortcutNerd" />
+				<meta name="twitter:description" content="Learn to control applications like a pro. Teaches shortcuts for the most popular applications" />
+				<meta name="twitter:image" content="http://shortcutnerd.com/icon_square.jpg" />
+
+				<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+				<link rel="stylesheet" href="css/bootstrap.min.css">
+				<style>
+						body {
+								padding-top: 50px;
+						}
+
+						* {
+							margin: 0;
+						}
+						html, body {
+							height: 100%;
+						}
+						.wrapper {
+							min-height: 100%;
+							height: auto !important;
+							height: 100%;
+							margin: 0 auto -40px;
+							padding-bottom: 60px;
+						}
+						.footer, .push {
+							height: 40px;
+							background-color: #333;
+							padding-left: 20px;
+							padding-top: 10px;
+						}
+
+						.footer, .footer a {
+							color: #ddd;
+						}
+
+						#gameContainer { 
+							height: 400px;
+							border: 1px solid #ccc;
+							position: relative;
+							margin-bottom: 20px;
+						}
+
+						#gameContainer h2 {
+							text-align: center;
+							margin-top: 40px;
+							font-size: 20px;
+							font-style: italic;
+						}
+
+						#gameContainer .resultVisualizer {
+							border: 1px solid black;
+							position: relative;
+							margin-left: 20px;
+							width: 130px;
+						}
+
+						#gameContainer .resultVisualizer .message {
+							position: absolute;
+							top: 10px;
+							left: 0px;
+							text-align: center;
+							width: 100%;
+							color: white;
+							font-weight: bold;
+							text-shadow: 1px 1px 15px black;
+							font-size: 22px;
+							display: inline;
+						}
+
+						.maincontentcontainer {
+							text-align: center;
+							margin-top: 40px;
+						}
+
+						.keycombination {
+								text-shadow: 1px 1px 0px black;
+								font-family: courier;
+								font-weight: bold;
+								font-size: 50px;
+						}
+
+						#gameContainer #shortcutVisualizer {
+							margin-top: 50px;
+							color: blue;
+						}
+						#gameContainer #shortcutVisualizer.wrong {
+							color: red;
+						}
+						#gameContainer #shortcutVisualizer.correct {
+							color: #00ff00;
+						}
+
+						#selectedApplication .container{
+							position: relative;
+						}
+
+						#questionContainer {
+							text-align: center;
+							margin-top: 20px;
+						}
+						#questionContainer .question {
+							font-size: 25px;
+							line-height: 64px;
+						}
+						#questionContainer .hint img {
+							width: 64px;
+							height: 64px;
+							image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+							image-rendering: -moz-crisp-edges;          /* Firefox                        */
+							image-rendering: -o-crisp-edges;            /* Opera                          */
+							image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+							image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+							-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+						}
+						#questionContainer .text {
+							font-size: 16px;
+							margin-left: 10px;
+							color: #666;
+							font-style: italic;
+						}
+
+						.solutioncontainer {
+							text-align: center;
+							margin-top: 20px;
+							font-style: italic;
+							font-size: 16px;
+						}
+
+						#solutionVisualizer {
+							font-size: 50px;
+							color: #00ff00;
+							font-style: normal;
+							display: block;
+						}
+						#sharebuttons {
+							width: 400px;
+							text-align: center;
+							margin: auto;
+						}
+				</style>
+				<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+				<link rel="stylesheet" href="css/main.css">
+
+				<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+				<script type="text/javascript">var switchTo5x=true;</script>
+				<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+				<script type="text/javascript">
+					stLight.options({publisher: "1f3c3528-732a-475a-b9b5-7d96664f6c71", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+				</script>
+		</head>
+		<body>
+			<!--[if lt IE 7]>
+					<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+			<![endif]-->
+			
+			<div class="wrapper">
+				<div class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">ShortcutNerd</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="active" id="homeNavigation"><a href="#">Home</a></li>
+								<!--<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>-->
+							</ul>
+						</div><!--/.navbar-collapse -->
+					</div>
+				</div>
+
+				<!-- Main jumbotron for a primary marketing message or call to action -->
+				<div class="jumbotron" id="applicationSelector">
+					<div class="container">
+						<h1>ShortcutNerd</h1>
+						<p>Choose which Application to train:</p>
+						<p>
+						<!--
+							<a class="btn btn-primary btn-m" href="#word_2013">
+								<img src="img/word_2013.png" alt="Microsoft Word 2013" width="64" height="64" /> 
+								Microsoft Word 2013 &raquo;
+							</a>
+							<a class="btn btn-primary btn-m" href="#sublime_3">
+								<img src="img/sublime_3.png" alt="Sublime Text 3" width="64" height="64" /> 
+								Sublime Text 3 &raquo;
+							</a>
+							<a class="btn btn-primary btn-m" href="#visualstudio_2013">
+								<img src="img/visualstudio_2013.png" alt="Microsoft Visual Studio 2013" width="64" height="64" /> 
+								Microsoft Visual Studio 2013 &raquo;
+							</a>
+							<a class="btn btn-primary btn-m" href="#emmet">
+								<img src="img/emmet.png" alt="Emmet" width="64" height="64" /> 
+								Emmet &raquo;
+							</a>-->
+							<a class="btn btn-primary btn-m" href="#resharper_8">
+								<img src="img/resharper_8.png" alt="JetBrains Resharper 8" width="64" height="64" /> 
+								JetBrains Resharper 8 &raquo;
+							</a>
+							<a class="btn btn-primary btn-m" href="#photoshop_cs6">
+								<img src="img/photoshop_cs6.png" alt="Photoshop CS6" width="64" height="64" /> 
+								Photoshop CS6 &raquo;
+							</a>
+
+							<small>&nbsp;&nbsp;&nbsp;More to come...</small>
+						</p>
+					</div>
+				</div>
+
+				<div class="well" id="selectedApplication" style="display:none">
+					<div class="container">
+						<h2>
+							<img class="applicationicon" src="img/visualstudio_2013.png" alt="Microsoft Visual Studio 2013" width="64" height="64" /> 
+							<span class="title">Microsoft Visual Studio 2013</span>
+						</h2>
+					</div>
+				</div>
+
+				<div class="container" id="gameContainer" style="display:none">
+					<div id="questionContainer">
+						<span class="question">Next Function: <span class="hint"><img src="img/visualstudio_2013/save.png"/></span><span class="text"></span></span>
+					</div>
+
+					<h2 id="pressShortcutNotification">&lt; Press Keyboard Shortcut now &gt;</h2>
+					<h2 id="pressEnterNotification" style="display: none">&lt; Press Enter to continue &gt;</h2>
+			
+					<div class="maincontentcontainer">
+						<span id="shortcutVisualizer" class="keycombination"></span>
+
+						<span id="correctNotification" class="resultVisualizer" style="display: none;">
+							<img src="img/correct_small.png" alt="This is correct"/>
+							<span class="message">This is correct!</span>
+						</span>
+						<span id="wrongNotification" class="resultVisualizer" style="display: none;">
+							<img src="img/wrong_small.png" alt="This is wrong"/>
+							<span class="message">This is wrong!</span>
+						</span>
+					</div>
+			
+					<div class="solutioncontainer" style="display:none;">
+						The correct solution would have been: 
+						<span id="solutionVisualizer" class="keycombination"></span>
+					</div>
+				</div>
+
+				<div id="sharebuttons" class="well">
+					<span class='st_facebook_large' displayText='Facebook'></span>
+					<span class='st_googleplus_large' displayText='Google +'></span>
+					<span class='st_twitter_large' displayText='Tweet'></span>
+					<span class='st_linkedin_large' displayText='LinkedIn'></span>
+					<span class='st_pinterest_large' displayText='Pinterest'></span>
+					<span class='st_email_large' displayText='Email'></span>
+					<span class='st_fblike_large' displayText='Facebook Like'></span>
+				</div>
+			</div>
+
+			<div class="footer">
+
+				<footer>
+					<p>&copy; <a href="http://shdev.de">SHDev</a> 2014 - <a href="mailto:info@shortcutnerd.com">info@shortcutnerd.com</a></p>
+				</footer>
+			</div> <!-- /container -->
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+			<script src="js/vendor/bootstrap.min.js"></script>
+
+			<script src="js/shortcuts.js"></script>
+			<script src="js/game.js"></script>
+			<script src="js/main.js"></script>
+
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-3329852-11', 'shdev.de');
+				ga('send', 'pageview');
+
+			</script>
+		</body>
+</html>
